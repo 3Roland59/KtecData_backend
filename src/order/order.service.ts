@@ -112,6 +112,20 @@ export class OrderService {
     return order;
   }
 
+  async findByRecipient(recipientNumber: string, page: number = 1, limit: number = 2): Promise<{ orders: Order[], total: number }> {
+    const skip = (page - 1) * limit;
+    const [orders, total] = await Promise.all([
+      this.orderModel.find({ recipientNumber })
+        .sort({ createdAt: -1 })
+        .skip(skip)
+        .limit(limit)
+        .exec(),
+      this.orderModel.countDocuments({ recipientNumber }).exec()
+    ]);
+
+    return { orders, total };
+  }
+
   async remove(id: string): Promise<any> {
     return this.orderModel.findByIdAndDelete(id).exec();
   }
