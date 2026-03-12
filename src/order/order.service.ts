@@ -51,6 +51,9 @@ export class OrderService {
       order.paymentNumber = paystackPhone;
     }
 
+    // Update payment status from Paystack
+    order.paymentStatus = (verificationData.data.status || 'success').charAt(0).toUpperCase() + (verificationData.data.status || 'success').slice(1);
+
     // Update status to Processing
     order.status = 'Processing';
     await (order as any).save();

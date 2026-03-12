@@ -26,6 +26,9 @@ export class Order {
     @Prop({ default: 'Pending' })
     status: string;
 
+    @Prop({ default: 'Pending' })
+    paymentStatus: string;
+
     @Prop({ required: true, unique: true })
     reference: string;
 }
