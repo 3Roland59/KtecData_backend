@@ -46,7 +46,7 @@ export class OrderService {
     }
 
     // Extract payment number from Paystack
-    const paystackPhone = verificationData.data.customer?.phone;
+    const paystackPhone = verificationData.data.authorization?.mobile_money_number;
     if (paystackPhone) {
       order.paymentNumber = paystackPhone;
     }
