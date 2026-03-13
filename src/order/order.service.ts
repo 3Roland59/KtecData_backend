@@ -67,7 +67,7 @@ export class OrderService {
 
       // 3. Send SMS Notification
       if (order.paymentNumber) {
-        const smsMessage = `Payment for ${order.volume} ${order.network.toUpperCase()} bundle for recipient ${order.recipientNumber} received and is being processed. Order ID: ${order.reference}. Thank you for choosing KtecData.`;
+        const smsMessage = `Bundle purchase of ${order.volume} ${order.network.toUpperCase()} for recipient ${order.recipientNumber} received and is being processed. Order ID: ${order.reference}. For Support, WhatsApp 0537004721`;
         try {
           await this.smsService.sendSms(order.paymentNumber, smsMessage);
         } catch (smsError) {
