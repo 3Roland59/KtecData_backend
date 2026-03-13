@@ -20,4 +20,20 @@ export class CreateOrderDto {
     @IsString()
     @IsOptional()
     paymentNumber?: string;
+
+    @IsString()
+    @IsOptional()
+    nagonuServiceName?: string;
+
+    @IsString()
+    @IsOptional()
+    nagonuNetwork?: string;
+
+    @IsNumber()
+    @IsOptional()
+    nagonuOfferId?: number;
+
+    @IsString()
+    @IsOptional()
+    nagonuPackageType?: string;
 }

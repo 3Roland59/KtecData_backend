@@ -55,13 +55,13 @@ export class OrderService {
     order.paymentStatus = (verificationData.data.status || 'success').charAt(0).toUpperCase() + (verificationData.data.status || 'success').slice(1);
 
     // Update status to Processing
-    order.status = 'Processing';
-    await (order as any).save();
+    // order.status = 'Processing';
+    // await (order as any).save();
 
     // 2. Initiate Data Purchase
     const purchaseResult = await this.dataPurchaseService.initiatePurchase(order);
     if (purchaseResult.success) {
-      order.status = 'Completed';
+      order.status = 'Processing';
       order.externalOrderId = purchaseResult.externalOrderId;
       await (order as any).save();
 
@@ -96,7 +96,7 @@ export class OrderService {
     if (!order) {
       throw new NotFoundException(`Order with reference ${reference} not found`);
     }
-    return order;
+    return this.syncNagonuStatus(order as OrderDocument);
   }
 
   async findByReference(reference: string): Promise<Order> {
@@ -126,10 +126,30 @@ export class OrderService {
       this.orderModel.countDocuments({ recipientNumber }).exec()
     ]);
 
-    return { orders, total };
+    const syncedOrders = await Promise.all(orders.map(o => this.syncNagonuStatus(o as OrderDocument)));
+
+    return { orders: syncedOrders, total };
   }
 
   async remove(id: string): Promise<any> {
     return this.orderModel.findByIdAndDelete(id).exec();
+  }
+
+  private async syncNagonuStatus(order: OrderDocument): Promise<OrderDocument> {
+    if (order.status === 'Processing' && order.externalOrderId) {
+      const nagonuType = order.nagonuPackageType || 'regular';
+      const nagonuStatus = await this.dataPurchaseService.checkOrderStatus(order.externalOrderId, nagonuType);
+
+      const normalizedStatus = nagonuStatus.trim().toLowerCase();
+
+      if (normalizedStatus === 'delivered' || normalizedStatus === 'successful' || normalizedStatus === 'completed') {
+        order.status = 'Completed';
+        await order.save();
+      } else if (normalizedStatus === 'failed' || normalizedStatus === 'cancelled') {
+        order.status = 'Failed';
+        await order.save();
+      }
+    }
+    return order;
   }
 }

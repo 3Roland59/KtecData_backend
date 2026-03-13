@@ -29,6 +29,21 @@ export class Order {
     @Prop({ default: 'Pending' })
     paymentStatus: string;
 
+    @Prop()
+    nagonuServiceName?: string;
+
+    @Prop()
+    nagonuNetwork?: string;
+
+    @Prop()
+    nagonuOfferId?: number;
+
+    @Prop()
+    nagonuStatus?: string;
+
+    @Prop()
+    nagonuPackageType?: string;
+
     @Prop({ required: true, unique: true })
     reference: string;
 }
