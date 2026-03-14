@@ -1,522 +1,522 @@
 [
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "5GB",
-        "offer_id": 23,
-        "original_price": 21.5,
-        "custom_price": 21.9
-    },
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "10GB",
-        "offer_id": 24,
-        "original_price": 39.5,
-        "custom_price": 42
-    },
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "15GB",
-        "offer_id": 25,
-        "original_price": 58.5,
-        "custom_price": 60
-    },
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "20GB",
-        "offer_id": 26,
-        "original_price": 78.5,
-        "custom_price": 82
-    },
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "30GB",
-        "offer_id": 27,
-        "original_price": 113.5,
-        "custom_price": 118
-    },
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "40GB",
-        "offer_id": 28,
-        "original_price": 150.5,
-        "custom_price": 165
-    },
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "50GB",
-        "offer_id": 29,
-        "original_price": 185.5,
-        "custom_price": 205
-    },
-    {
-        "service_name": "TELECEL",
-        "network": "TELECEL",
-        "package": "100GB",
-        "offer_id": 30,
-        "original_price": 365.5,
-        "custom_price": 400
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "1GB",
-        "offer_id": 1,
-        "original_price": 4.5,
-        "custom_price": 4.4
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "2GB",
-        "offer_id": 2,
-        "original_price": 8.9,
-        "custom_price": 8.8
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "3GB",
-        "offer_id": 3,
-        "original_price": 13.2,
-        "custom_price": 13.2
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "4GB",
-        "offer_id": 4,
-        "original_price": 17.6,
-        "custom_price": 17.6
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "5GB",
-        "offer_id": 5,
-        "original_price": 22,
-        "custom_price": 22
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "6GB",
-        "offer_id": 6,
-        "original_price": 26.4,
-        "custom_price": 26.4
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "8GB",
-        "offer_id": 8,
-        "original_price": 35.2,
-        "custom_price": 35.2
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "10GB",
-        "offer_id": 10,
-        "original_price": 41.5,
-        "custom_price": 44
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "15GB",
-        "offer_id": 12,
-        "original_price": 59,
-        "custom_price": 66
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "20GB",
-        "offer_id": 14,
-        "original_price": 81,
-        "custom_price": 88
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "25GB",
-        "offer_id": 16,
-        "original_price": 99.8,
-        "custom_price": 110
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "30GB",
-        "offer_id": 17,
-        "original_price": 119.9,
-        "custom_price": 132
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "40GB",
-        "offer_id": 18,
-        "original_price": 159.9,
-        "custom_price": 176
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "50GB",
-        "offer_id": 19,
-        "original_price": 195,
-        "custom_price": 220
-    },
-    {
-        "service_name": "MTN NORMAL",
-        "network": "MTN",
-        "package": "100GB",
-        "offer_id": 21,
-        "original_price": 370,
-        "custom_price": 440
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "1GB",
-        "offer_id": 24,
-        "original_price": 3.95,
-        "custom_price": 4.3
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "2GB",
-        "offer_id": 25,
-        "original_price": 7.89,
-        "custom_price": 8.6
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "3GB",
-        "offer_id": 26,
-        "original_price": 11.85,
-        "custom_price": 12.9
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "4GB",
-        "offer_id": 27,
-        "original_price": 15.8,
-        "custom_price": 17.2
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "5GB",
-        "offer_id": 28,
-        "original_price": 19.75,
-        "custom_price": 21.5
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "6GB",
-        "offer_id": 29,
-        "original_price": 23.7,
-        "custom_price": 25.8
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "7GB",
-        "offer_id": 30,
-        "original_price": 27.65,
-        "custom_price": 30.1
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "8GB",
-        "offer_id": 31,
-        "original_price": 31.6,
-        "custom_price": 34.4
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "9GB",
-        "offer_id": 32,
-        "original_price": 35.55,
-        "custom_price": 38.7
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "10GB",
-        "offer_id": 33,
-        "original_price": 39.5,
-        "custom_price": 43
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "12GB",
-        "offer_id": 34,
-        "original_price": 47.4,
-        "custom_price": 52
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "15GB",
-        "offer_id": 35,
-        "original_price": 59.25,
-        "custom_price": 64.5
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "20GB",
-        "offer_id": 52,
-        "original_price": 61.5,
-        "custom_price": 86
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "30GB",
-        "offer_id": 53,
-        "original_price": 70,
-        "custom_price": 129
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "40GB",
-        "offer_id": 54,
-        "original_price": 85,
-        "custom_price": 172
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "50GB",
-        "offer_id": 58,
-        "original_price": 95,
-        "custom_price": 215
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "60GB",
-        "offer_id": 61,
-        "original_price": 130,
-        "custom_price": 258
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "70GB",
-        "offer_id": 24,
-        "original_price": 145,
-        "custom_price": 301
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "80GB",
-        "offer_id": 25,
-        "original_price": 155,
-        "custom_price": 344
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "100GB",
-        "offer_id": 26,
-        "original_price": 175,
-        "custom_price": 380
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "200GB",
-        "offer_id": 27,
-        "original_price": 330,
-        "custom_price": 700
-    },
-    {
-        "service_name": "AT - BigTime",
-        "network": "AT - BigTime",
-        "package": "250GB",
-        "offer_id": 28,
-        "original_price": 415,
-        "custom_price": 830
-    },
-    {
-        "service_name": "AT - iSHare",
-        "network": "AT - iSHare",
-        "package": "20GB",
-        "offer_id": 37,
-        "original_price": 79,
-        "custom_price": 79
-    },
-    {
-        "service_name": "AFA TALKTIME",
-        "network": "AFA TALKTIME",
-        "package": "250 mins",
-        "offer_id": 1,
-        "original_price": 10.5,
-        "custom_price": 10.5
-    },
-    {
-        "service_name": "AFA TALKTIME",
-        "network": "AFA TALKTIME",
-        "package": "500 mins",
-        "offer_id": 2,
-        "original_price": 21,
-        "custom_price": 21
-    },
-    {
-        "service_name": "AFA TALKTIME",
-        "network": "AFA TALKTIME",
-        "package": "750 mins",
-        "offer_id": 3,
-        "original_price": 31.5,
-        "custom_price": 31.5
-    },
-    {
-        "service_name": "AFA TALKTIME",
-        "network": "AFA TALKTIME",
-        "package": "1000 mins",
-        "offer_id": 4,
-        "original_price": 42,
-        "custom_price": 42
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "1GB",
-        "offer_id": 1,
-        "original_price": 4.6,
-        "custom_price": 4.6
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "2GB",
-        "offer_id": 2,
-        "original_price": 9.2,
-        "custom_price": 9.2
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "3GB",
-        "offer_id": 3,
-        "original_price": 13.5,
-        "custom_price": 13.5
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "4GB",
-        "offer_id": 4,
-        "original_price": 18.3,
-        "custom_price": 18.3
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "5GB",
-        "offer_id": 5,
-        "original_price": 23,
-        "custom_price": 23
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "6GB",
-        "offer_id": 6,
-        "original_price": 27,
-        "custom_price": 27
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "8GB",
-        "offer_id": 8,
-        "original_price": 36.8,
-        "custom_price": 36.8
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "10GB",
-        "offer_id": 10,
-        "original_price": 42.5,
-        "custom_price": 42.5
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "15GB",
-        "offer_id": 15,
-        "original_price": 62,
-        "custom_price": 62
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "20GB",
-        "offer_id": 20,
-        "original_price": 82,
-        "custom_price": 82
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "25GB",
-        "offer_id": 14,
-        "original_price": 100,
-        "custom_price": 100
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "30GB",
-        "offer_id": 15,
-        "original_price": 120,
-        "custom_price": 120
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "40GB",
-        "offer_id": 17,
-        "original_price": 160,
-        "custom_price": 160
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "50GB",
-        "offer_id": 19,
-        "original_price": 199,
-        "custom_price": 199
-    },
-    {
-        "service_name": "MTN EXPRESS",
-        "network": "MTN",
-        "package": "100GB",
-        "offer_id": 20,
-        "original_price": 390,
-        "custom_price": 390
-    }
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "5GB",
+    "offer_id": 23,
+    "original_price": 21.5,
+    "custom_price": 24.5
+  },
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "10GB",
+    "offer_id": 24,
+    "original_price": 39.5,
+    "custom_price": 47
+  },
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "15GB",
+    "offer_id": 25,
+    "original_price": 58.5,
+    "custom_price": 63
+  },
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "20GB",
+    "offer_id": 26,
+    "original_price": 78.5,
+    "custom_price": 83
+  },
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "30GB",
+    "offer_id": 27,
+    "original_price": 113.5,
+    "custom_price": 125
+  },
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "40GB",
+    "offer_id": 28,
+    "original_price": 150.5,
+    "custom_price": 165
+  },
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "50GB",
+    "offer_id": 29,
+    "original_price": 185.5,
+    "custom_price": 205
+  },
+  {
+    "service_name": "TELECEL",
+    "network": "TELECEL",
+    "package": "100GB",
+    "offer_id": 30,
+    "original_price": 365.5,
+    "custom_price": 405
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "1GB",
+    "offer_id": 1,
+    "original_price": 4.15,
+    "custom_price": 4.4
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "2GB",
+    "offer_id": 2,
+    "original_price": 8.4,
+    "custom_price": 8.8
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "3GB",
+    "offer_id": 3,
+    "original_price": 12.45,
+    "custom_price": 13.2
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "4GB",
+    "offer_id": 4,
+    "original_price": 16.6,
+    "custom_price": 17.6
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "5GB",
+    "offer_id": 5,
+    "original_price": 20.75,
+    "custom_price": 22
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "6GB",
+    "offer_id": 6,
+    "original_price": 24.9,
+    "custom_price": 26.4
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "8GB",
+    "offer_id": 8,
+    "original_price": 33.2,
+    "custom_price": 35.2
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "10GB",
+    "offer_id": 10,
+    "original_price": 40.5,
+    "custom_price": 44
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "15GB",
+    "offer_id": 12,
+    "original_price": 58,
+    "custom_price": 66
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "20GB",
+    "offer_id": 14,
+    "original_price": 79,
+    "custom_price": 88
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "25GB",
+    "offer_id": 16,
+    "original_price": 98,
+    "custom_price": 110
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "30GB",
+    "offer_id": 17,
+    "original_price": 116.5,
+    "custom_price": 132
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "40GB",
+    "offer_id": 18,
+    "original_price": 156,
+    "custom_price": 176
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "50GB",
+    "offer_id": 19,
+    "original_price": 189,
+    "custom_price": 220
+  },
+  {
+    "service_name": "MTN NORMAL",
+    "network": "MTN",
+    "package": "100GB",
+    "offer_id": 21,
+    "original_price": 365,
+    "custom_price": 440
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "1GB",
+    "offer_id": 24,
+    "original_price": 3.95,
+    "custom_price": 4.3
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "2GB",
+    "offer_id": 25,
+    "original_price": 7.89,
+    "custom_price": 8.6
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "3GB",
+    "offer_id": 26,
+    "original_price": 11.85,
+    "custom_price": 12.9
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "4GB",
+    "offer_id": 27,
+    "original_price": 15.8,
+    "custom_price": 17.2
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "5GB",
+    "offer_id": 28,
+    "original_price": 19.75,
+    "custom_price": 21.5
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "6GB",
+    "offer_id": 29,
+    "original_price": 23.7,
+    "custom_price": 25.8
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "7GB",
+    "offer_id": 30,
+    "original_price": 27.65,
+    "custom_price": 30.1
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "8GB",
+    "offer_id": 31,
+    "original_price": 31.6,
+    "custom_price": 34.4
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "9GB",
+    "offer_id": 32,
+    "original_price": 35.55,
+    "custom_price": 38.7
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "10GB",
+    "offer_id": 33,
+    "original_price": 39.5,
+    "custom_price": 43
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "12GB",
+    "offer_id": 34,
+    "original_price": 47.4,
+    "custom_price": 52
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "15GB",
+    "offer_id": 35,
+    "original_price": 59.25,
+    "custom_price": 64.5
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "20GB",
+    "offer_id": 52,
+    "original_price": 61.5,
+    "custom_price": 72
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "30GB",
+    "offer_id": 53,
+    "original_price": 70,
+    "custom_price": 92
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "40GB",
+    "offer_id": 54,
+    "original_price": 85,
+    "custom_price": 118
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "50GB",
+    "offer_id": 58,
+    "original_price": 95,
+    "custom_price": 145
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "60GB",
+    "offer_id": 61,
+    "original_price": 130,
+    "custom_price": 185
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "70GB",
+    "offer_id": 24,
+    "original_price": 145,
+    "custom_price": 205
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "80GB",
+    "offer_id": 25,
+    "original_price": 155,
+    "custom_price": 235
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "100GB",
+    "offer_id": 26,
+    "original_price": 175,
+    "custom_price": 260
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "200GB",
+    "offer_id": 27,
+    "original_price": 330,
+    "custom_price": 460
+  },
+  {
+    "service_name": "AT - BigTime",
+    "network": "AT - BigTime",
+    "package": "250GB",
+    "offer_id": 28,
+    "original_price": 415,
+    "custom_price": 560
+  },
+  {
+    "service_name": "AT - iSHare",
+    "network": "AT - iSHare",
+    "package": "20GB",
+    "offer_id": 37,
+    "original_price": 79,
+    "custom_price": 79
+  },
+  {
+    "service_name": "AFA TALKTIME",
+    "network": "AFA TALKTIME",
+    "package": "250 mins",
+    "offer_id": 1,
+    "original_price": 10.5,
+    "custom_price": 10.5
+  },
+  {
+    "service_name": "AFA TALKTIME",
+    "network": "AFA TALKTIME",
+    "package": "500 mins",
+    "offer_id": 2,
+    "original_price": 21,
+    "custom_price": 21
+  },
+  {
+    "service_name": "AFA TALKTIME",
+    "network": "AFA TALKTIME",
+    "package": "750 mins",
+    "offer_id": 3,
+    "original_price": 31.5,
+    "custom_price": 31.5
+  },
+  {
+    "service_name": "AFA TALKTIME",
+    "network": "AFA TALKTIME",
+    "package": "1000 mins",
+    "offer_id": 4,
+    "original_price": 42,
+    "custom_price": 42
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "1GB",
+    "offer_id": 1,
+    "original_price": 4.3,
+    "custom_price": 4.6
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "2GB",
+    "offer_id": 2,
+    "original_price": 8.5,
+    "custom_price": 9.2
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "3GB",
+    "offer_id": 3,
+    "original_price": 12.8,
+    "custom_price": 13.5
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "4GB",
+    "offer_id": 4,
+    "original_price": 16.9,
+    "custom_price": 18.3
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "5GB",
+    "offer_id": 5,
+    "original_price": 21,
+    "custom_price": 23
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "6GB",
+    "offer_id": 6,
+    "original_price": 25.8,
+    "custom_price": 27
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "8GB",
+    "offer_id": 8,
+    "original_price": 34.4,
+    "custom_price": 36.8
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "10GB",
+    "offer_id": 10,
+    "original_price": 41,
+    "custom_price": 42.5
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "15GB",
+    "offer_id": 15,
+    "original_price": 62,
+    "custom_price": 62
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "20GB",
+    "offer_id": 20,
+    "original_price": 82,
+    "custom_price": 82
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "25GB",
+    "offer_id": 14,
+    "original_price": 99,
+    "custom_price": 100
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "30GB",
+    "offer_id": 15,
+    "original_price": 117,
+    "custom_price": 120
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "40GB",
+    "offer_id": 17,
+    "original_price": 156,
+    "custom_price": 160
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "50GB",
+    "offer_id": 19,
+    "original_price": 190,
+    "custom_price": 199
+  },
+  {
+    "service_name": "MTN EXPRESS",
+    "network": "MTN",
+    "package": "100GB",
+    "offer_id": 20,
+    "original_price": 375,
+    "custom_price": 390
+  }
 ]
