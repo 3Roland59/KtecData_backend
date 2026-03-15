@@ -53,6 +53,20 @@ export class PackagesService {
         this.logger.log('Custom prices saved.');
     }
 
+    /** Retrieve original price locally from disk */
+    async getOriginalPrice(serviceName: string, offerId: number): Promise<number | null> {
+        try {
+            if (fs.existsSync(this.customPricesPath)) {
+                const customPricesArray: CustomPackage[] = JSON.parse(fs.readFileSync(this.customPricesPath, 'utf-8'));
+                const pkg = customPricesArray.find(p => p.service_name === serviceName && p.offer_id === offerId);
+                return pkg?.original_price ?? null;
+            }
+        } catch (e: any) {
+            this.logger.error(`Error reading custom prices for original price: ${e.message}`);
+        }
+        return null;
+    }
+
     /** Fetch packages from Nagonu and merge with custom prices */
     async getPackages(): Promise<{ regular: DisplayPackage[]; bigtime: DisplayPackage[] }> {
         if (!this.apiKey) {

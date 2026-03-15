@@ -8,6 +8,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { PaystackService } from '../shared/services/paystack.service';
 import { DataPurchaseService } from '../shared/services/data-purchase.service';
 import { SmsService } from '../shared/services/sms.service';
+import { Sales, SalesDocument } from './schemas/sales.schema';
+import { PackagesService } from '../packages/packages.service';
 
 @Injectable()
 export class OrderService {
@@ -15,9 +17,11 @@ export class OrderService {
 
   constructor(
     @InjectModel(Order.name) private orderModel: Model<OrderDocument>,
+    @InjectModel(Sales.name) private salesModel: Model<SalesDocument>,
     private readonly paystackService: PaystackService,
     private readonly dataPurchaseService: DataPurchaseService,
     private readonly smsService: SmsService,
+    private readonly packagesService: PackagesService,
   ) { }
 
   async create(createOrderDto: CreateOrderDto): Promise<Order> {
@@ -54,9 +58,25 @@ export class OrderService {
     // Update payment status from Paystack
     order.paymentStatus = (verificationData.data.status || 'success').charAt(0).toUpperCase() + (verificationData.data.status || 'success').slice(1);
 
-    // Update status to Processing
-    // order.status = 'Processing';
-    // await (order as any).save();
+    const sales = await this.salesModel.findOne({}).exec();
+    if (!sales) {
+      this.logger.warn(`Sales not found`);
+    } else {
+      let originalPrice = order.amount * 0.95; // fallback
+
+      if (order.nagonuServiceName && order.nagonuOfferId) {
+        const fetchedPrice = await this.packagesService.getOriginalPrice(order.nagonuServiceName, order.nagonuOfferId);
+        if (fetchedPrice !== null) {
+          originalPrice = fetchedPrice;
+        }
+      }
+
+      sales.totalSales += order.amount;
+      sales.salesCount += 1;
+      sales.totalProfit += (order.amount - originalPrice);
+      sales.lastestOrder = order.reference;
+      await sales.save();
+    }
 
     // 2. Initiate Data Purchase
     const purchaseResult = await this.dataPurchaseService.initiatePurchase(order);
